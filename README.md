@@ -2,24 +2,6 @@
 
 This project demonstrates how to use **GraalJS** in a **Spring Boot** application to generate dynamic charts using JavaScript (D3.js or custom JavaScript code). The chart is rendered on the server side and returned to the frontend as an SVG.
 
-## Project Structure
-
-```
-/src/main/java/com/example/demo
- ├── DemoApplication.java              # Main Spring Boot application class
- ├── controllers
- │   ├── ChartController.java         # Controller for handling chart requests
- ├── services
- │   ├── JavaScriptService.java      # Service responsible for generating the chart using GraalJS
- 
-```
-
-## Features
-
-- **Chart Generation**: The project uses GraalJS to execute JavaScript within the Spring Boot backend to generate an SVG chart.
-- **Dynamic Data**: You can easily modify the chart data and appearance using JavaScript in the `JavaScriptService`.
-- **Rendering**: The generated SVG is sent to the frontend and displayed in the `index.html` page.
-
 ## Prerequisites
 
 To run this project, you'll need the following installed:
