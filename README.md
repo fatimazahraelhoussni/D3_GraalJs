@@ -16,7 +16,7 @@ To run this project, you'll need the following installed:
 ### 1. Clone the repository
 
 ```
-git clone <repository-url>
+git clone https://github.com/fatimazahraelhoussni/D3_GraalJs.git
 cd <project-directory>
 ```
 
@@ -30,7 +30,7 @@ mvn clean install
 
 ### 3. Run the application
 
-To start the application, run the `DemoApplication` class in your IDE or from the command line:
+To start the application, run the `D3demoApplication` class in your IDE or from the command line:
 
 ```
 mvn spring-boot:run
