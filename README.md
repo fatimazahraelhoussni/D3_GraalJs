@@ -6,7 +6,7 @@ This project demonstrates how to use **GraalJS** in a **Spring Boot** applicatio
 
 To run this project, you'll need the following installed:
 
-- **Java 17+** (for Spring Boot)
+- **Java 23** (for Spring Boot)
 - **Maven** (for building the project)
 - **GraalVM** (for running JavaScript within Java using GraalJS)
 - **Spring Boot** (for building the backend application)
